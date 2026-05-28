@@ -20,7 +20,7 @@ Treat `src/others/guide.mdx` as the source of truth for content rules, and use `
 - Heading structure: major questions use `##`, subquestions use `###` only when appropriate. Choice/blank/judgment questions should use lists instead of overusing headings.
 - `Figure` / `Audio` references must use local file names within the same exam directory.
 - Prefer actionable comments tied to rendering or editorial correctness. Avoid low-value wording suggestions unless wording creates ambiguity.
-- **Answer correctness**: For exams that contain answers (marked with `+` in `<Choices>`, content inside `<Blank>...</Blank>`, or content inside `<Solution>...</Solution>`), verify the correctness of the provided answers. This applies to all subjects. If an answer is wrong, point out the specific question, explain why it is incorrect, and provide the correct answer.
+- **Answer correctness**: For questions that contain answers (marked with `+` or `<Option correct>` in `<Choices>`, content inside `<Blank>...</Blank>`, or content inside `<Solution>...</Solution>`), verify the correctness of the provided answers. This applies to all subjects. If an answer is wrong, point out the specific question, explain why it is incorrect, and provide the correct answer. You should ask the contributors to confirm the questions and answers precisely rather than forcing them to correct the answers.
 
 ### Site code (`src/`, `astro.config.mts`, config files)
 
